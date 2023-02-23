@@ -14,9 +14,9 @@ class Wallet
     def setAmount(x):
         self.balance=x
         
-    def removeAmount(x):
-        if(x<self.balance):
-            self.balance-=x
+    def removeAmount(y):
+        if(y<self.balance):
+            self.balance-=y
         else:
             print("Not enough money")
 
